@@ -65,11 +65,42 @@ _in the top-right corner to view alerts or provisioning messages for this VM._
 _Confirmed that Server01 was successfully redeployed to a new Azure host. The operation resolved infrastructure-level issues while preserving all VM settings and resources._
 
 ![Redeploying virtual machine ](Screenshots/Click%20Redploy%20VM.png)
-![Go Search Engine](Screenshots/Click%20Redploy%20VM.png)
-![Go Search Engine](Screenshots/Click%20Refresh.png)
-![Go Search Engine](Screenshots/Click%20Refresh%20Again.png)
-![Go Search Engine](Screenshots/To%20Replay%20Click%20Redploy%20&%20Reapply.png)
-![Go Search Engine](Screenshots/Click%20Reapply.png)
-![Go Search Engine](Screenshots/Click%20Notification%20Bell2.png)
-![Go Search Engine](Screenshots/Click%20Reapply%20VM.png)
-![Go Search Engine](Screenshots/To%20know%20the%20Status%20REFRESH.png)
+
+### Step 10: Click Refresh  
+_Manually refreshed the Server01 overview page to confirm successful redeployment and ensure the VM status reflects its latest operational state._
+
+![Click Refresh ](Screenshots/Click%20Refresh.png)
+
+### ✅ Step 11: Click Refresh again  
+_Refreshed the Server01 overview page to verify that the VM restarted successfully and retained its “Running” status post-operation._
+
+![Click Refresh again](Screenshots/Click%20Refresh%20Again.png)
+
+### Step 12: Click Redeploy + reapply  
+_Accessed the “Redeploy + reapply” blade from the Server01 overview to initiate host migration or reapply provisioning for troubleshooting VM connectivity or failed state._
+
+![Click Redeploy + reapply](Screenshots/To%20Replay%20Click%20Redploy%20&%20Reapply.png)
+
+### Step 13: Click Reapply  
+_Selected the “Reapply” button to rerun platform provisioning for Server01, resolving potential VM configuration or connectivity issues without changing infrastructure settings._
+
+![Click Reapply](Screenshots/Click%20Reapply.png)
+
+### Step 14: Click Notification bell  
+_Opened the Azure portal notifications icon to track Replay or Replay+ progress and monitor VM telemetry attachment status._
+
+![Click Notification bell](Screenshots/Click%20Notification%20Bell2.png)
+
+
+
+### Step 15: Click Reapplying virtual machine  
+_Executed the “Reapply” operation for Server01 to rerun platform provisioning and restore VM health. Verified success via notification panel showing “Succeeded” status. This step confirms a clean recovery — ideal for resolving failed states without changing infrastructure._
+
+![Click Reapplying virtual machine](Screenshots/Click%20Reapply%20VM.png)
+
+### Step 16: Click Refresh  
+_Selected the “Refresh” button on the Server01 overview page to update the VM status and confirm that recent operations completed successfully._
+
+![Click Refresh](Screenshots/To%20know%20the%20Status%20REFRESH.png)
+
+> **Tip** This step is my final checkpoint — ideal for validating redeploy or reapply actions.
